@@ -1,4 +1,4 @@
-import scipy
+#import scipy
 import scipy.constants
 import math
 import commonLib
@@ -22,5 +22,4 @@ h = (scipy.constants.G * M * (t ** 2) / (4 * (math.pi ** 2))) ** (1 / 3)
 h = h-R
 
 print(h)
-import
 
