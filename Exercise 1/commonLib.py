@@ -1,4 +1,4 @@
-def twoNumberInsideInputValidate(I1, I2, testSubject):
+def twoNumberInsideInputValidate(I1, I2, testSubject): # Checks if a value is within a set range
     valid = False
     while not valid:
         if testSubject < I1:
@@ -9,7 +9,7 @@ def twoNumberInsideInputValidate(I1, I2, testSubject):
             valid = True
 
 
-def twoNumberOutsideInputValidate(I1, I2, testSubject):
+def twoNumberOutsideInputValidate(I1, I2, testSubject): # Checks if a value is outside a set range
     valid = False
     while not valid:
         if testSubject > I1:
