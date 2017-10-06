@@ -20,8 +20,8 @@ def twoNumberOutsideInputValidate(I1, I2, testSubject):
             valid = True
 
 
-def timeConverter(time):
-    for i in range(0, 4):
+def timeConverter(time): # Time is 5 part list
+    for i in range(0, 5):
         if time[i] != 0:
             if i == 0:
                 time[1] = time[0] / 60
