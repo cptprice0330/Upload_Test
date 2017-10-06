@@ -1,4 +1,3 @@
-import scipy.constants
 import commonLib
 
 
