@@ -5,7 +5,7 @@ import commonLib
 
 
 
-time = [0,0,440,0,0]
+time = [0,0,589,0,0]
 
 t = float(input("Enter a time in seconds: "))
 
