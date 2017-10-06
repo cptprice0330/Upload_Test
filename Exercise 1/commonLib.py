@@ -1,4 +1,4 @@
-def twoNumberInsideInputValidate(I1, I2, testSubject): # Checks if a value is within a set range
+def twoNumberInsideInputValidate(I1, I2, testSubject):  # Checks if a value is within a set range
     valid = False
     while not valid:
         if testSubject < I1:
@@ -9,7 +9,7 @@ def twoNumberInsideInputValidate(I1, I2, testSubject): # Checks if a value is wi
             valid = True
 
 
-def twoNumberOutsideInputValidate(I1, I2, testSubject): # Checks if a value is outside a set range
+def twoNumberOutsideInputValidate(I1, I2, testSubject):  # Checks if a value is outside a set range
     valid = False
     while not valid:
         if testSubject > I1:
@@ -20,7 +20,7 @@ def twoNumberOutsideInputValidate(I1, I2, testSubject): # Checks if a value is o
             valid = True
 
 
-def timeConverter(time): # Time is 5 part list
+def timeConverter(time):  # Time is 5 part list
     for i in range(0, 5):
         if time[i] != 0:
             if i == 0:
@@ -49,8 +49,11 @@ def timeConverter(time): # Time is 5 part list
                 time[1] = time[2] * 60
                 time[0] = time[1] * 60
 
+
 def Factorial(x):
     fac = 1
-    for i in range (2,x+1):
+    for i in range(2, x + 1):
         fac *= i
     return fac
+
+def Binomial():
