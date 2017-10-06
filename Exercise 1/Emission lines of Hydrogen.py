@@ -10,4 +10,6 @@ for m in range (1,5):
         lambdaVI = R*((1/m**2) - (1/n**2))
         print(1/lambdaVI)
 
-
+print()
+x = commonLib.Factorial(5)
+print(x)

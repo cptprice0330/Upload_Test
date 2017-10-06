@@ -48,3 +48,9 @@ def timeConverter(time): # Time is 5 part list
                 time[2] = time[3] * 24
                 time[1] = time[2] * 60
                 time[0] = time[1] * 60
+
+def Factorial(x):
+    fac = 1
+    for i in range (2,x+1):
+        fac *= i
+    return fac
