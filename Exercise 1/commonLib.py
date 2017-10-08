@@ -1,3 +1,5 @@
+import math
+
 
 def twoNumberInsideInputValidate(I1, I2, testSubject):  # Checks if a value is within a set range
     valid = False
@@ -58,5 +60,5 @@ def Factorial(x):
     return fac
 
 def Binomial(n,k):
-    bCoeff = (Factorial(n))/((Factorial(k)*(Factorial(n-k))))
+    bCoeff = (Factorial(n))//((Factorial(k)*(Factorial(n-k))))
     return bCoeff
