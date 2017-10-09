@@ -4,12 +4,15 @@ import numpy
 import plotly
 
 dataSet = []
+xData = []
 
-#sunspotData = fileinput.input("sunspots.txt",float)
-#for line in sunspotData:
-    #dataSet.append()
+sunspotData = open("sunspots.txt")
+for line in sunspotData:
+    i+= 1
 
-dataSet =numpy.loadtxt("sunspots.txt",float)
+line = sunspotData.readlines()
+for j in range (i-24,i+1):
+    xData[count] = line[j]
 
 x = dataSet[:,0]
 xplot = (x/12)+1749
