@@ -60,5 +60,8 @@ def Factorial(x):
     return fac
 
 def Binomial(n,k):
-    bCoeff = (Factorial(n))//((Factorial(k)*(Factorial(n-k))))
+    if k !=n:
+       bCoeff = (Factorial(n))//((Factorial(k)*(Factorial(n-k))))
+    else:
+        bCoeff = 1
     return bCoeff
